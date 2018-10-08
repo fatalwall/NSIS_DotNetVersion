@@ -1,7 +1,7 @@
 # NSIS DotNetVersion
 NSIS Library used to detect that a compatible .Net Framework version is installed on the system at installation time. Best usage is to include the required framework version and install it if the check returns false. Handles the hard version compatibility breaks between 1.0, 1.1-3.5, 4+.
 
-For more information on NSIS please see http://nsis.sourceforge.net
+For more information on NSIS please see <http://nsis.sourceforge.net>
 
 ## Expected Warnings
 The following warning may be thrown by the NSIS compiler and can be ignored
@@ -13,7 +13,9 @@ Warning 2 un.  FIXME
 ```
 
 ## Dependancies
-String Explode Function - Library has not been posted yet. This will be updated once project is posted
+Files must be in the compilers include directory or in the same folder as the install script being compiled
+- [strExplode.nsh](https://github.com/fatalwall/NSIS_strExplode)
+- [x64.nsh](https://sourceforge.net/p/nsis/code/HEAD/tree/NSIS/trunk/Include/x64.nsh)
 
 ## Usage:
 DotNetVersion OutVariable Major Minor Build
