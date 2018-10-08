@@ -11,7 +11,7 @@
 ;=  false. Handles the hard version compatibility breaks between 1.0, 1.1-3.5, 4+.
 ;=
 ;==================================================================================
-;= Copyright (C) 2017 Peter Varney - All Rights Reserved
+;= Copyright (C) 2018 Peter Varney - All Rights Reserved
 ;= You may use, distribute and modify this code under the
 ;= terms of the MIT license, 
 ;=
